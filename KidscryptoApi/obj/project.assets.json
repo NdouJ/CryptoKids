@@ -3925,6 +3925,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "KidscryptoLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/KidscryptoLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KidscryptoLib.dll": {}
+        }
       }
     }
   },
@@ -11194,11 +11204,17 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "KidscryptoLib/1.0.0": {
+      "type": "project",
+      "path": "../KidscryptoLib/KidscryptoLib.csproj",
+      "msbuildProject": "../KidscryptoLib/KidscryptoLib.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "EntityFramework >= 6.4.4",
+      "KidscryptoLib >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.5",
       "Microsoft.EntityFrameworkCore.InMemory >= 7.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.5",
@@ -11240,7 +11256,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\KidscryptoApi\\KidscryptoLib\\KidscryptoLib.csproj": {
+              "projectPath": "C:\\KidscryptoApi\\KidscryptoLib\\KidscryptoLib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

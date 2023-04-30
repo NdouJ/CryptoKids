@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "KidsCryptoClient/1.0.0": {
         "dependencies": {
+          "KidscryptoLib": "1.0.0",
           "Microsoft.Extensions.ApiDescription.Client": "7.0.5",
           "NSwag.ApiDescription.Client": "13.18.2",
           "Newtonsoft.Json": "13.0.3"
@@ -31,7 +32,12 @@
           "NSwag.MSBuild": "13.18.2"
         }
       },
-      "NSwag.MSBuild/13.18.2": {}
+      "NSwag.MSBuild/13.18.2": {},
+      "KidscryptoLib/1.0.0": {
+        "runtime": {
+          "KidscryptoLib.dll": {}
+        }
+      }
     }
   },
   "libraries": {
@@ -67,6 +73,11 @@
       "sha512": "sha512-SRQ3mONkfbJWhZxA1yOFMJMXavUvnXwcoYU23qoVqSEY2G+y8jZuq9ErWm76JT0Kn5/Ml5UhG1FWmLhkqd4/+A==",
       "path": "nswag.msbuild/13.18.2",
       "hashPath": "nswag.msbuild.13.18.2.nupkg.sha512"
+    },
+    "KidscryptoLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

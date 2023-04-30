@@ -24,4 +24,8 @@
     <Folder Include="Data\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\KidscryptoLib\KidscryptoLib.csproj" />
+  </ItemGroup>
+
 </Project>

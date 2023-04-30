@@ -32,3 +32,7 @@ C:\KidscryptoApi\KidsCryptoClient\obj\Debug\net6.0\refint\KidsCryptoClient.dll
 C:\KidscryptoApi\KidsCryptoClient\obj\Debug\net6.0\KidsCryptoClient.pdb
 C:\KidscryptoApi\KidsCryptoClient\obj\Debug\net6.0\KidsCryptoClient.genruntimeconfig.cache
 C:\KidscryptoApi\KidsCryptoClient\obj\Debug\net6.0\ref\KidsCryptoClient.dll
+C:\KidscryptoApi\KidsCryptoClient\bin\Debug\net6.0\OpenAPIs\swagger1.json
+C:\KidscryptoApi\KidsCryptoClient\bin\Debug\net6.0\OpenAPIs\swagger2.json
+C:\KidscryptoApi\KidsCryptoClient\bin\Debug\net6.0\KidscryptoLib.dll
+C:\KidscryptoApi\KidsCryptoClient\bin\Debug\net6.0\KidscryptoLib.pdb

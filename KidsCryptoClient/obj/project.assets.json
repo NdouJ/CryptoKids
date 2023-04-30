@@ -45,6 +45,16 @@
         "buildMultiTargeting": {
           "buildCrossTargeting/NSwag.MSBuild.props": {}
         }
+      },
+      "KidscryptoLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/KidscryptoLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KidscryptoLib.dll": {}
+        }
       }
     }
   },
@@ -718,10 +728,16 @@
         "tools/Win/YamlDotNet.dll",
         "tools/Win/netstandard.dll"
       ]
+    },
+    "KidscryptoLib/1.0.0": {
+      "type": "project",
+      "path": "../KidscryptoLib/KidscryptoLib.csproj",
+      "msbuildProject": "../KidscryptoLib/KidscryptoLib.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "KidscryptoLib >= 1.0.0",
       "Microsoft.Extensions.ApiDescription.Client >= 7.0.5",
       "NSwag.ApiDescription.Client >= 13.18.2",
       "Newtonsoft.Json >= 13.0.3"
@@ -759,7 +775,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\KidscryptoApi\\KidscryptoLib\\KidscryptoLib.csproj": {
+              "projectPath": "C:\\KidscryptoApi\\KidscryptoLib\\KidscryptoLib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

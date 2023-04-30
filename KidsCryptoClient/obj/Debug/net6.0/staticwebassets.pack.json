@@ -5,6 +5,34 @@
       "PackagePath": "staticwebassets\\KidsCryptoClient.bundle.scp.css"
     },
     {
+      "Id": "C:\\KidscryptoApi\\KidsCryptoClient\\wwwroot\\Assets\\child1.PNG",
+      "PackagePath": "staticwebassets\\Assets\\child1.PNG"
+    },
+    {
+      "Id": "C:\\KidscryptoApi\\KidsCryptoClient\\wwwroot\\Assets\\child2.PNG",
+      "PackagePath": "staticwebassets\\Assets\\child2.PNG"
+    },
+    {
+      "Id": "C:\\KidscryptoApi\\KidsCryptoClient\\wwwroot\\Assets\\child3.PNG",
+      "PackagePath": "staticwebassets\\Assets\\child3.PNG"
+    },
+    {
+      "Id": "C:\\KidscryptoApi\\KidsCryptoClient\\wwwroot\\Assets\\child4.PNG",
+      "PackagePath": "staticwebassets\\Assets\\child4.PNG"
+    },
+    {
+      "Id": "C:\\KidscryptoApi\\KidsCryptoClient\\wwwroot\\Assets\\child5.PNG",
+      "PackagePath": "staticwebassets\\Assets\\child5.PNG"
+    },
+    {
+      "Id": "C:\\KidscryptoApi\\KidsCryptoClient\\wwwroot\\Assets\\logo.PNG",
+      "PackagePath": "staticwebassets\\Assets\\logo.PNG"
+    },
+    {
+      "Id": "C:\\KidscryptoApi\\KidsCryptoClient\\wwwroot\\css\\cutsom.css",
+      "PackagePath": "staticwebassets\\css\\cutsom.css"
+    },
+    {
       "Id": "C:\\KidscryptoApi\\KidsCryptoClient\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

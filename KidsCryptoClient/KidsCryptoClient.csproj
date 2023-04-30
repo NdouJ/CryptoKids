@@ -7,7 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <OpenApiReference Include="OpenAPIs\swagger.json" CodeGenerator="NSwagCSharp">
+    <None Include="OpenAPIs\swagger.json" />
+    <None Include="OpenAPIs\swagger1.json" />
+    <None Include="wwwroot\Assets\child1.PNG" />
+    <None Include="wwwroot\Assets\child2.PNG" />
+    <None Include="wwwroot\Assets\child3.PNG" />
+    <None Include="wwwroot\Assets\child4.PNG" />
+    <None Include="wwwroot\Assets\child5.PNG" />
+    <None Include="wwwroot\Assets\logo.PNG" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <OpenApiReference Include="OpenAPIs\swagger2.json" CodeGenerator="NSwagCSharp">
       <SourceUri>http://localhost:5076/swagger/v1/swagger.json</SourceUri>
     </OpenApiReference>
   </ItemGroup>
@@ -22,6 +33,14 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KidscryptoLib\KidscryptoLib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ViewModels\" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,12 @@
+C:\KidscryptoApi\KidscryptoLib\bin\Debug\net6.0\KidscryptoLib.deps.json
+C:\KidscryptoApi\KidscryptoLib\bin\Debug\net6.0\KidscryptoLib.dll
+C:\KidscryptoApi\KidscryptoLib\bin\Debug\net6.0\KidscryptoLib.pdb
+C:\KidscryptoApi\KidscryptoLib\obj\Debug\net6.0\KidscryptoLib.csproj.AssemblyReference.cache
+C:\KidscryptoApi\KidscryptoLib\obj\Debug\net6.0\KidscryptoLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\KidscryptoApi\KidscryptoLib\obj\Debug\net6.0\KidscryptoLib.AssemblyInfoInputs.cache
+C:\KidscryptoApi\KidscryptoLib\obj\Debug\net6.0\KidscryptoLib.AssemblyInfo.cs
+C:\KidscryptoApi\KidscryptoLib\obj\Debug\net6.0\KidscryptoLib.csproj.CoreCompileInputs.cache
+C:\KidscryptoApi\KidscryptoLib\obj\Debug\net6.0\KidscryptoLib.dll
+C:\KidscryptoApi\KidscryptoLib\obj\Debug\net6.0\refint\KidscryptoLib.dll
+C:\KidscryptoApi\KidscryptoLib\obj\Debug\net6.0\KidscryptoLib.pdb
+C:\KidscryptoApi\KidscryptoLib\obj\Debug\net6.0\ref\KidscryptoLib.dll
