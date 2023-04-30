@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KidscryptoApi", "KidscryptoApi\KidscryptoApi.csproj", "{3C15E539-99A6-49F0-A3E8-A1880C175C21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KidsCryptoClient", "KidsCryptoClient\KidsCryptoClient.csproj", "{761FC1EB-C5C7-40DA-ABE9-18D3D133FFCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C15E539-99A6-49F0-A3E8-A1880C175C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C15E539-99A6-49F0-A3E8-A1880C175C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C15E539-99A6-49F0-A3E8-A1880C175C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C15E539-99A6-49F0-A3E8-A1880C175C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{761FC1EB-C5C7-40DA-ABE9-18D3D133FFCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{761FC1EB-C5C7-40DA-ABE9-18D3D133FFCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{761FC1EB-C5C7-40DA-ABE9-18D3D133FFCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{761FC1EB-C5C7-40DA-ABE9-18D3D133FFCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CEB4DF15-5ECA-42BA-AC51-A1AB7FC8586F}
+	EndGlobalSection
+EndGlobal

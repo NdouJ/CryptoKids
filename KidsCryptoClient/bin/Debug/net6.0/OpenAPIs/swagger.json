@@ -1,0 +1,34 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "KidscryptoApi",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/CryptoFacts/GetCryptoFact": {
+      "get": {
+        "tags": [
+          "CryptoFacts"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/CryptoFacts/GetAll": {
+      "get": {
+        "tags": [
+          "CryptoFacts"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

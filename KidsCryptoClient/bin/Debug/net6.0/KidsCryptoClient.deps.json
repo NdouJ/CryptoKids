@@ -1,0 +1,72 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "KidsCryptoClient/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.ApiDescription.Client": "7.0.5",
+          "NSwag.ApiDescription.Client": "13.18.2",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "KidsCryptoClient.dll": {}
+        }
+      },
+      "Microsoft.Extensions.ApiDescription.Client/7.0.5": {},
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "NSwag.ApiDescription.Client/13.18.2": {
+        "dependencies": {
+          "Microsoft.Extensions.ApiDescription.Client": "7.0.5",
+          "NSwag.MSBuild": "13.18.2"
+        }
+      },
+      "NSwag.MSBuild/13.18.2": {}
+    }
+  },
+  "libraries": {
+    "KidsCryptoClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.ApiDescription.Client/7.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-J7H92fAbtESpCue6wge4tQ80K0itRQ/Q3NfzKxJAsrFrDRkwaU3max+XUssvXSIRGDYLiLDdTii+8kGeA4VY8A==",
+      "path": "microsoft.extensions.apidescription.client/7.0.5",
+      "hashPath": "microsoft.extensions.apidescription.client.7.0.5.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "NSwag.ApiDescription.Client/13.18.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uViMdjUscfeqrlDY4q9O2a0t2cMqsOx1kdX9WLyQjTXea1xjAHgQFCYlgE6ibwkYcUDJDlwEYUzvsJelL6SY3g==",
+      "path": "nswag.apidescription.client/13.18.2",
+      "hashPath": "nswag.apidescription.client.13.18.2.nupkg.sha512"
+    },
+    "NSwag.MSBuild/13.18.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SRQ3mONkfbJWhZxA1yOFMJMXavUvnXwcoYU23qoVqSEY2G+y8jZuq9ErWm76JT0Kn5/Ml5UhG1FWmLhkqd4/+A==",
+      "path": "nswag.msbuild/13.18.2",
+      "hashPath": "nswag.msbuild.13.18.2.nupkg.sha512"
+    }
+  }
+}
