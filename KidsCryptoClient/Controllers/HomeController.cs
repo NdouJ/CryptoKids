@@ -1,5 +1,7 @@
 ﻿using KidsCryptoClient.Models;
+using KidsCryptoClient.Services;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using System.Diagnostics;
 
 namespace KidsCryptoClient.Controllers
@@ -13,10 +15,32 @@ namespace KidsCryptoClient.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+
+
+
+
+        public async Task<IActionResult> IndexAsync()
         {
-            return View();
+            IEnumerable<CryptoNews> cryptoNews=null;
+
+            try
+            {
+                cryptoNews = await NewsService.GetNewsAsync();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+           
+               
+
+
+            return View("Index", cryptoNews);
         }
+
+       
+
 
         public IActionResult Privacy()
         {

@@ -1,8 +1,35 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+@model IEnumerable<CryptoNews>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<h1>Crypto News</h1>
+
+<div class="news-container">
+    @foreach (var news in Model)
+    {
+        <div class="news-item">
+            <h2>@news.Title</h2>
+            <p>@news.Source</p>
+            <a href="@news.Url">Read More</a>
+        </div>
+    }
 </div>
+
+@section Scripts {
+
+    <script>
+        $(document).ready(function () {
+            $('.news-item').addClass('shadow p-3 mb-5 bg-white rounded');
+        });
+    </script>
+}
+
+
+
+@*
+<div> News </div>
+<div> Excange</div>
+<div>Learn</div>
+<div>Quizz</div>
+*@

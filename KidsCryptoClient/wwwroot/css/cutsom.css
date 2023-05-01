@@ -1,3 +1,64 @@
 ﻿.round-img {
     border-radius: 50%;
 }
+.dollar-sign {
+    display: inline-block;
+    position: relative;
+}
+
+    .dollar-sign::before {
+        content: "$";
+        font-size: 20px;
+        color: green;
+        animation-name: spin;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.fcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+h1 {
+    text-align: center;
+    margin: 5%;
+}
+
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.news-item {
+    width: 48%;
+    margin-bottom: 2rem;
+}
+
+    .news-item h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .news-item p {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .news-item a {
+        display: block;
+        font-size: 1rem;
+    }
