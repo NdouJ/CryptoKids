@@ -1,4 +1,13 @@
-﻿.round-img {
+﻿
+body {
+    margin-bottom: 60px;
+    background-image: url("../Assets/back2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.round-img {
     border-radius: 50%;
 }
 .dollar-sign {

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zlKthTyb5xgN8FuCx+n06tww80tjReRqynhX+kDweAM=",
+  "Hash": "90WJsu7xtfN8q+7L8plDuTcksLEQhO2FQ8iDWbE2ick=",
   "Source": "KidsCryptoClient",
   "BasePath": "_content/KidsCryptoClient",
   "Mode": "Default",
@@ -49,6 +49,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\KidscryptoApi\\KidsCryptoClient\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\KidsCryptoClient.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\KidscryptoApi\\KidsCryptoClient\\wwwroot\\Assets\\back.PNG",
+      "SourceId": "KidsCryptoClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\KidscryptoApi\\KidsCryptoClient\\wwwroot\\",
+      "BasePath": "_content/KidsCryptoClient",
+      "RelativePath": "Assets/back.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\back.PNG"
+    },
+    {
+      "Identity": "C:\\KidscryptoApi\\KidsCryptoClient\\wwwroot\\Assets\\back2.jpg",
+      "SourceId": "KidsCryptoClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\KidscryptoApi\\KidsCryptoClient\\wwwroot\\",
+      "BasePath": "_content/KidsCryptoClient",
+      "RelativePath": "Assets/back2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\back2.jpg"
     },
     {
       "Identity": "C:\\KidscryptoApi\\KidsCryptoClient\\wwwroot\\Assets\\child1.PNG",

@@ -2,17 +2,24 @@
 using KidsCryptoClient.Services;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using Serilog;
 using System.Diagnostics;
 
 namespace KidsCryptoClient.Controllers
 {
     public class HomeController : Controller
     {
+        
+
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILoggerFactory loggerFactory)
         {
-            _logger = logger;
+            Log.Logger = new LoggerConfiguration()
+            .WriteTo.File("log.txt", rollingInterval: RollingInterval.Day)
+            .CreateLogger();
+
+            _logger = loggerFactory.CreateLogger<HomeController>(); //dpi
         }
 
 
@@ -21,22 +28,27 @@ namespace KidsCryptoClient.Controllers
 
         public async Task<IActionResult> IndexAsync()
         {
-            IEnumerable<CryptoNews> cryptoNews=null;
+            IEnumerable<CryptoNews> cryptoNews = new List<CryptoNews>();    
 
             try
             {
                 cryptoNews = await NewsService.GetNewsAsync();
             }
-            catch (Exception)
+            catch (HttpRequestException ex)
             {
-
-                throw;
+                // Serilog
+                Log.Error(ex, "An error occurred while sending the HTTP request to Crypto News.");
             }
-           
+            catch (JsonException ex)
+            {
                
+                Log.Error(ex, "An error occurred while deserializing the JSON response.");
+            }
 
 
-            return View("Index", cryptoNews);
+
+
+            return View("Index", cryptoNews??Enumerable.Empty<CryptoNews>());
         }
 
        
@@ -51,6 +63,11 @@ namespace KidsCryptoClient.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        ~HomeController()
+        {
+            Log.CloseAndFlush();
         }
     }
 }

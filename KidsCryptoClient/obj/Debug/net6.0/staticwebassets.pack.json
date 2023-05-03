@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\KidsCryptoClient.bundle.scp.css"
     },
     {
+      "Id": "C:\\KidscryptoApi\\KidsCryptoClient\\wwwroot\\Assets\\back.PNG",
+      "PackagePath": "staticwebassets\\Assets\\back.PNG"
+    },
+    {
+      "Id": "C:\\KidscryptoApi\\KidsCryptoClient\\wwwroot\\Assets\\back2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\back2.jpg"
+    },
+    {
       "Id": "C:\\KidscryptoApi\\KidsCryptoClient\\wwwroot\\Assets\\child1.PNG",
       "PackagePath": "staticwebassets\\Assets\\child1.PNG"
     },

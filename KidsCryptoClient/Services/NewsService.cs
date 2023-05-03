@@ -22,7 +22,7 @@ namespace KidsCryptoClient.Services
                 RequestUri = new Uri("https://crypto-news-live9.p.rapidapi.com/news/CryptoNews"),
                 Headers =
                 {
-                    { "X-RapidAPI-Key", "296ebc2835msha07ad0504e2916dp1a3f5fjsnaf60afca4e1c" },
+                    {"X-RapidAPI-Key", "296ebc2835msha07ad0504e2916dp1a3f5fjsnaf60afca4e1c" },
                     { "X-RapidAPI-Host", "crypto-news-live9.p.rapidapi.com" },
                 },
             };
@@ -31,11 +31,11 @@ namespace KidsCryptoClient.Services
             {
                 response.EnsureSuccessStatusCode();
                string body = await response.Content.ReadAsStringAsync();
-                news = JsonConvert.DeserializeObject<List<CryptoNews>>(body);
+                 news = JsonConvert.DeserializeObject<List<CryptoNews>>(body);
 
             }
 
-            return news;
+            return news ?? Enumerable.Empty<CryptoNews>();
         }
     }
 }
